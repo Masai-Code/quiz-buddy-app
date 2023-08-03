@@ -1,1 +1,550 @@
-<p>landing works!</p>
+<header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700">
+    <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
+      <div class="flex items-center justify-between">
+        <a class="inline-flex items-center gap-x-2 text-sm font-semibold dark:text-white" href="#" aria-label="Brand">
+            <img class="w-10 h-auto" src="assets/logo02.png" alt="Logo">
+            Quiz Buddy
+        </a>
+        <div class="sm:hidden">
+          <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+            <i class="ph ph-list"></i>
+          </button>
+        </div>
+      </div>
+      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+        <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
+
+          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#">How it Works</a>
+          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#pricing">Pricing</a>
+          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#faq">FAQ's</a>
+
+
+          <div class="flex items-center gap-x-2 sm:ml-auto">
+            <a class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-500" href="#">
+
+              <i class="ph ph-user"></i>
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- Hero -->
+<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Grid -->
+    <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+      <div>
+        <h1 class="block text-xl font-bold text-gray-800 sm:text-3xl lg:text-6xl lg:leading-tight dark:text-white">Ace Your Quizzes and Exams</h1>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Get instant help answering quiz and exam questions effortlessly.</p>
+
+        <!-- Buttons -->
+        <div class="mt-7 grid gap-3 w-full sm:inline-flex">
+          <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
+            Get started
+            <i class="ph ph-caret-right"></i>
+          </a>
+
+        </div>
+        <!-- End Buttons -->
+
+        <!-- Review -->
+        <div class="mt-6 lg:mt-10 grid grid-cols-2 gap-x-5">
+          <!-- Review -->
+          <div class="py-5">
+            <div class="flex space-x-1">
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+            </div>
+
+            <p class="mt-3 text-sm text-gray-800 dark:text-gray-200">
+              <span class="font-bold">4.6</span> /5 - from 12k reviews
+            </p>
+
+            <div class="mt-5">
+              <!-- Star -->
+              <svg class="h-auto w-16 text-gray-800 dark:text-white" width="80" height="27" viewBox="0 0 80 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.558 9.74046H11.576V12.3752H17.9632C17.6438 16.0878 14.5301 17.7245 11.6159 17.7245C7.86341 17.7245 4.58995 14.7704 4.58995 10.6586C4.58995 6.62669 7.70373 3.51291 11.6159 3.51291C14.6498 3.51291 16.4063 5.42908 16.4063 5.42908L18.2426 3.51291C18.2426 3.51291 15.8474 0.878184 11.4961 0.878184C5.94724 0.838264 1.67578 5.50892 1.67578 10.5788C1.67578 15.5289 5.70772 20.3592 11.6558 20.3592C16.8854 20.3592 20.7177 16.8063 20.7177 11.4969C20.7177 10.3792 20.558 9.74046 20.558 9.74046Z" fill="currentColor"/>
+                <path d="M27.8621 7.78442C24.1894 7.78442 21.5547 10.6587 21.5547 14.012C21.5547 17.4451 24.1096 20.3593 27.9419 20.3593C31.415 20.3593 34.2094 17.7645 34.2094 14.0918C34.1695 9.94011 30.896 7.78442 27.8621 7.78442ZM27.902 10.2994C29.6984 10.2994 31.415 11.7764 31.415 14.0918C31.415 16.4072 29.7383 17.8842 27.902 17.8842C25.906 17.8842 24.3491 16.2874 24.3491 14.0519C24.3092 11.8962 25.8661 10.2994 27.902 10.2994Z" fill="currentColor"/>
+                <path d="M41.5964 7.78442C37.9238 7.78442 35.2891 10.6587 35.2891 14.012C35.2891 17.4451 37.844 20.3593 41.6763 20.3593C45.1493 20.3593 47.9438 17.7645 47.9438 14.0918C47.9038 9.94011 44.6304 7.78442 41.5964 7.78442ZM41.6364 10.2994C43.4328 10.2994 45.1493 11.7764 45.1493 14.0918C45.1493 16.4072 43.4727 17.8842 41.6364 17.8842C39.6404 17.8842 38.0835 16.2874 38.0835 14.0519C38.0436 11.8962 39.6004 10.2994 41.6364 10.2994Z" fill="currentColor"/>
+                <path d="M55.0475 7.82434C51.6543 7.82434 49.0195 10.7784 49.0195 14.0918C49.0195 17.8443 52.0934 20.3992 54.9676 20.3992C56.764 20.3992 57.6822 19.7205 58.4407 18.8822V20.1198C58.4407 22.2754 57.1233 23.5928 55.1273 23.5928C53.2111 23.5928 52.2531 22.1557 51.8938 21.3573L49.4587 22.3553C50.297 24.1517 52.0135 26.0279 55.0874 26.0279C58.4407 26.0279 60.9956 23.9122 60.9956 19.481V8.18362H58.3608V9.26147C57.6423 8.38322 56.5245 7.82434 55.0475 7.82434ZM55.287 10.2994C56.9237 10.2994 58.6403 11.7365 58.6403 14.1317C58.6403 16.6068 56.9636 17.9241 55.2471 17.9241C53.4507 17.9241 51.774 16.4471 51.774 14.1716C51.8139 11.6966 53.5305 10.2994 55.287 10.2994Z" fill="currentColor"/>
+                <path d="M72.8136 7.78442C69.62 7.78442 66.9453 10.2994 66.9453 14.0519C66.9453 18.004 69.9393 20.3593 73.093 20.3593C75.7278 20.3593 77.4044 18.8822 78.3625 17.6048L76.1669 16.1277C75.608 17.006 74.6499 17.8443 73.093 17.8443C71.3365 17.8443 70.5381 16.8862 70.0192 15.9281L78.4423 12.4152L78.0032 11.3772C77.1649 9.46107 75.2886 7.78442 72.8136 7.78442ZM72.8934 10.2196C74.0511 10.2196 74.8495 10.8184 75.2487 11.5768L69.6599 13.9321C69.3405 12.0958 71.097 10.2196 72.8934 10.2196Z" fill="currentColor"/>
+                <path d="M62.9531 19.9999H65.7076V1.47693H62.9531V19.9999Z" fill="currentColor"/>
+              </svg>
+              <!-- End Star -->
+            </div>
+          </div>
+          <!-- End Review -->
+
+          <!-- Review -->
+          <div class="py-5">
+            <div class="flex space-x-1">
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star-half"></i>
+            </div>
+
+            <p class="mt-3 text-sm text-gray-800 dark:text-gray-200">
+              <span class="font-bold">4.8</span> /5 - from 5k reviews
+            </p>
+
+            <div class="mt-5">
+              <!-- Star -->
+              <svg class="h-auto w-16 text-gray-800 dark:text-white" width="110" height="28" viewBox="0 0 110 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M66.6601 8.35107C64.8995 8.35107 63.5167 8.72875 62.1331 9.48265C62.1331 5.4582 62.1331 1.81143 62.2594 0.554199L53.8321 2.06273V2.81736L54.7124 2.94301C55.8433 3.19431 56.2224 3.82257 56.4715 5.33255C56.725 8.35107 56.5979 24.4496 56.4715 27.0912C58.7354 27.5945 61.1257 27.9722 63.5159 27.9722C70.1819 27.9722 74.2064 23.8213 74.2064 17.281C74.2064 12.1249 70.9366 8.35107 66.6601 8.35107ZM63.7672 26.5878C63.2639 26.5878 62.6342 26.5878 62.258 26.4629C62.1316 24.7023 62.0067 17.281 62.1316 10.7413C62.8862 10.4893 63.3888 10.3637 64.0185 10.3637C66.7872 10.3637 68.2965 13.6335 68.2965 17.6572C68.2957 22.6898 66.4088 26.5878 63.7672 26.5878ZM22.1363 1.0568H0V2.18838L1.25796 2.31403C2.89214 2.56533 3.52184 3.57127 3.77242 5.9608C4.15082 10.4886 4.02445 18.6646 3.77242 22.5619C3.52112 24.9522 2.89287 26.0845 1.25796 26.2087L0 26.4615V27.4674H14.2123V26.4615L12.703 26.2087C11.0681 26.0838 10.4392 24.9522 10.1879 22.5619C10.0615 20.9263 9.93583 18.2847 9.93583 15.0156L12.9543 15.1413C14.8413 15.1413 15.7208 16.6505 16.0985 18.7881H17.2308V9.86106H16.0985C15.7201 11.9993 14.8413 13.5078 12.9543 13.5078L9.93655 13.6342C9.93655 9.35773 10.0622 5.33328 10.1886 2.94374H14.59C17.9869 2.94374 19.7475 5.08125 21.0047 8.85513L22.2626 8.47745L22.1363 1.0568Z" fill="currentColor"/>
+                <path d="M29.3053 8.09998C35.5944 8.09998 38.7385 12.3764 38.7385 18.0358C38.7385 23.4439 35.2167 27.9731 28.9276 27.9731C22.6393 27.9731 19.4951 23.6959 19.4951 18.0358C19.4951 12.6277 23.0162 8.09998 29.3053 8.09998ZM28.9276 9.35793C26.1604 9.35793 25.4058 13.1311 25.4058 18.0358C25.4058 22.8149 26.6637 26.7137 29.1796 26.7137C32.0703 26.7137 32.8264 22.9405 32.8264 18.0358C32.8264 13.2567 31.5699 9.35793 28.9276 9.35793ZM75.8403 18.1622C75.8403 13.0054 79.1101 8.09998 85.5248 8.09998C90.8057 8.09998 93.3224 11.9995 93.3224 17.1555H81.6253C81.4989 21.8089 83.7628 25.2051 88.2913 25.2051C90.3038 25.2051 91.3098 24.7033 92.5685 23.8223L93.0703 24.4505C91.8124 26.2111 89.0459 27.9731 85.5248 27.9731C79.8647 27.9724 75.8403 23.9479 75.8403 18.1622ZM81.6253 15.7726L87.5366 15.6463C87.5366 13.1311 87.159 9.35793 85.0214 9.35793C82.8839 9.35793 81.7502 12.8791 81.6253 15.7726ZM108.291 9.10663C106.782 8.47693 104.77 8.09998 102.506 8.09998C97.8538 8.09998 94.9594 10.8665 94.9594 14.137C94.9594 17.4075 97.0955 18.7904 100.118 19.7971C103.261 20.9279 104.142 21.8089 104.142 23.3182C104.142 24.8275 103.01 26.2103 100.997 26.2103C98.6084 26.2103 96.8464 24.8275 95.4635 21.0536L94.5825 21.3063L94.7089 26.84C96.2181 27.4683 98.9846 27.9724 101.375 27.9724C106.28 27.9724 109.425 25.4557 109.425 21.5576C109.425 18.9161 108.041 17.4075 104.771 16.1489C101.249 14.766 99.992 13.8857 99.992 12.2501C99.992 10.6152 101.126 9.48286 102.635 9.48286C104.897 9.48286 106.407 10.8665 107.54 14.2627L108.42 14.0114L108.291 9.10663ZM55.0883 8.6033C52.9508 7.3468 49.1769 7.97433 47.1651 12.5028L47.29 8.1007L38.8642 9.73561V10.4902L39.7444 10.6159C40.8775 10.7423 41.3794 11.3705 41.5057 13.0062C41.757 16.0247 41.6314 21.3078 41.5057 23.9486C41.3794 25.4564 40.8775 26.2111 39.7444 26.3374L38.8642 26.4638V27.4697H50.5606V26.4638L49.0513 26.3374C47.7941 26.2111 47.4164 25.4564 47.29 23.9486C47.0387 21.5584 47.0387 16.7793 47.1651 13.7608C47.7933 12.8798 50.5606 12.1259 53.0757 13.7608L55.0883 8.6033Z" fill="currentColor"/>
+              </svg>
+              <!-- End Star -->
+            </div>
+          </div>
+          <!-- End Review -->
+        </div>
+        <!-- End Review -->
+      </div>
+      <!-- End Col -->
+
+      <div class="relative ml-4">
+        <img class="w-full rounded-md" src="https://images.unsplash.com/photo-1665686377065-08ba896d16fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&h=800&q=80" alt="Image Description">
+        <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 mr-4 -ml-4 lg:mt-6 lg:-mb-6 lg:mr-6 lg:-ml-6 dark:from-slate-800 dark:via-slate-900/0 dark:to-slate-900/0"></div>
+
+        <!-- SVG-->
+        <div class="absolute bottom-0 left-0">
+          <svg class="w-2/3 ml-auto h-auto text-white dark:text-slate-900" width="630" height="451" viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="531" y="352" width="99" height="99" fill="currentColor"/>
+            <rect x="140" y="352" width="106" height="99" fill="currentColor"/>
+            <rect x="482" y="402" width="64" height="49" fill="currentColor"/>
+            <rect x="433" y="402" width="63" height="49" fill="currentColor"/>
+            <rect x="384" y="352" width="49" height="50" fill="currentColor"/>
+            <rect x="531" y="328" width="50" height="50" fill="currentColor"/>
+            <rect x="99" y="303" width="49" height="58" fill="currentColor"/>
+            <rect x="99" y="352" width="49" height="50" fill="currentColor"/>
+            <rect x="99" y="392" width="49" height="59" fill="currentColor"/>
+            <rect x="44" y="402" width="66" height="49" fill="currentColor"/>
+            <rect x="234" y="402" width="62" height="49" fill="currentColor"/>
+            <rect x="334" y="303" width="50" height="49" fill="currentColor"/>
+            <rect x="581" width="49" height="49" fill="currentColor"/>
+            <rect x="581" width="49" height="64" fill="currentColor"/>
+            <rect x="482" y="123" width="49" height="49" fill="currentColor"/>
+            <rect x="507" y="124" width="49" height="24" fill="currentColor"/>
+            <rect x="531" y="49" width="99" height="99" fill="currentColor"/>
+          </svg>
+        </div>
+        <!-- End SVG-->
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Hero -->
+
+
+<!-- Icon Blocks -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 md:gap-10">
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M211.18,196.56,139.57,128l71.61-68.56a1.59,1.59,0,0,1,.13-.13A16,16,0,0,0,200,32H56A16,16,0,0,0,44.7,59.31l.12.13L116.43,128,44.82,196.56l-.12.13A16,16,0,0,0,56,224H200a16,16,0,0,0,11.32-27.31A1.59,1.59,0,0,1,211.18,196.56ZM56,48h0v0Zm144,0-72,68.92L56,48ZM56,208l72-68.92L200,208Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Time-Saving</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">QuizBuddy minimizes the time spent searching for answers, allowing you to focus on answering more questions accurately</p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Comprehensive Coverage</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">Whether it's history, science, mathematics, or any subject, QuizBuddy has got you covered with its vast database of accurate information</p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM80,108a12,12,0,1,1,12,12A12,12,0,0,1,80,108Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,176,108Zm-1.07,48c-10.29,17.79-27.4,28-46.93,28s-36.63-10.2-46.92-28a8,8,0,1,1,13.84-8c7.47,12.91,19.21,20,33.08,20s25.61-7.1,33.07-20a8,8,0,0,1,13.86,8Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">User-Friendly Interface</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">Our intuitive interface makes studying a breeze, even for the least tech-savvy students.</p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M152,96H104a8,8,0,0,0-8,8v48a8,8,0,0,0,8,8h48a8,8,0,0,0,8-8V104A8,8,0,0,0,152,96Zm-8,48H112V112h32Zm88,0H216V112h16a8,8,0,0,0,0-16H216V56a16,16,0,0,0-16-16H160V24a8,8,0,0,0-16,0V40H112V24a8,8,0,0,0-16,0V40H56A16,16,0,0,0,40,56V96H24a8,8,0,0,0,0,16H40v32H24a8,8,0,0,0,0,16H40v40a16,16,0,0,0,16,16H96v16a8,8,0,0,0,16,0V216h32v16a8,8,0,0,0,16,0V216h40a16,16,0,0,0,16-16V160h16a8,8,0,0,0,0-16Zm-32,56H56V56H200v95.87s0,.09,0,.13,0,.09,0,.13V200Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Smart Algorithm</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">QuizBuddy's advanced algorithm ensures precise answers and relevant explanations for every question.
+      </p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M136,80v43.47l36.12,21.67a8,8,0,0,1-8.24,13.72l-40-24A8,8,0,0,1,120,128V80a8,8,0,0,1,16,0Zm88-24a8,8,0,0,0-8,8V82c-6.35-7.36-12.83-14.45-20.12-21.83a96,96,0,1,0-2,137.7,8,8,0,0,0-11-11.64A80,80,0,1,1,184.54,71.4C192.68,79.64,199.81,87.58,207,96H184a8,8,0,0,0,0,16h40a8,8,0,0,0,8-8V64A8,8,0,0,0,224,56Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Constant Updates</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">We continually add new content and features to keep up with the evolving educational landscape</p>
+    </div>
+    <!-- End Card -->
+  </div>
+</div>
+<!-- End Icon Blocks -->
+
+
+  <!-- Features -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" id="pricing">
+    <!-- Title -->
+    <div class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
+      <h2 class="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-gray-200">
+        📚 Elevate Your Academic Success with AI-Powered Quiz and Exam Assistance! 🚀
+      </h2>
+    </div>
+    <!-- End Title -->
+
+    <div class="relative xl:w-10/12 xl:mx-auto">
+      <!-- Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+        <div>
+          <!-- Card -->
+          <div class="p-4 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700">
+            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Monthly</h3>
+            <div class="text-sm text-gray-500">Everything you need for exam month.</div>
+
+            <div class="mt-5">
+              <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">$6</span>
+              <span class="text-lg font-bold text-gray-800 dark:text-gray-200">.99</span>
+              <span class="ml-3 text-gray-500">USD / monthly</span>
+            </div>
+
+            <div class="mt-5 grid sm:grid-cols-2 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+              <!-- List -->
+              <ul role="list" class="space-y-2 text-sm sm:text-base">
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Tailored Responses
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Varied Subjects
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Instant Support
+                  </span>
+                </li>
+              </ul>
+              <!-- End List -->
+
+
+            </div>
+
+            <div class="mt-5 grid grid-cols-2 gap-x-4 py-4 first:pt-0 last:pb-0">
+              <div>
+                <p class="text-sm text-gray-500">Cancel anytime.</p>
+                <p class="text-sm text-gray-500">No card required.</p>
+                <p class="text-sm text-gray-500">Money back guarantee.</p>
+              </div>
+
+              <div class="flex justify-end">
+                <button type="button" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">Start free trial</button>
+              </div>
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+
+        <div>
+          <!-- Card -->
+          <div class="shadow-xl shadow-gray-200 p-5 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Yearly</h3>
+            <div class="text-sm text-gray-500">For constant all year preparation</div>
+            <span class="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">Most popular</span>
+
+            <div class="mt-5">
+              <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">$49</span>
+              <span class="text-lg font-bold text-gray-800 dark:text-gray-200">.99</span>
+              <span class="ml-3 text-gray-500">USD / yearly</span>
+            </div>
+
+            <div class="mt-5 grid sm:grid-cols-2 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+              <!-- List -->
+              <ul role="list" class="space-y-2 text-sm sm:text-base">
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Tailored Responses
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Varied Subjects
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Instant Support
+                  </span>
+                </li>
+              </ul>
+              <!-- End List -->
+
+              <!-- List -->
+              <ul role="list" class="space-y-2 text-sm sm:text-base">
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Confidence Boost
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Essay Support
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Citation Assistance
+                  </span>
+                </li>
+              </ul>
+              <!-- End List -->
+            </div>
+
+            <div class="mt-5 grid grid-cols-2 gap-x-4 py-4 first:pt-0 last:pb-0">
+              <div>
+                <p class="text-sm text-gray-500">Cancel anytime.</p>
+                <p class="text-sm text-gray-500">No card required.</p>
+              </div>
+
+              <div class="flex justify-end">
+                <button type="button" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">Start free trial</button>
+              </div>
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+      </div>
+      <!-- End Grid -->
+
+      <!-- SVG Element -->
+      <div class="hidden md:block absolute top-0 right-0 translate-y-16 translate-x-16">
+        <svg class="w-16 h-auto text-orange-500" width="121" height="135" viewBox="0 0 121 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+          <path d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+          <path d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <!-- End SVG Element -->
+
+      <!-- SVG Element -->
+      <div class="hidden md:block absolute bottom-0 left-0 translate-y-16 -translate-x-16">
+        <svg class="w-56 h-auto text-cyan-500" width="347" height="188" viewBox="0 0 347 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 82.4591C54.7956 92.8751 30.9771 162.782 68.2065 181.385C112.642 203.59 127.943 78.57 122.161 25.5053C120.504 2.2376 93.4028 -8.11128 89.7468 25.5053C85.8633 61.2125 130.186 199.678 180.982 146.248L214.898 107.02C224.322 95.4118 242.9 79.2851 258.6 107.02C274.299 134.754 299.315 125.589 309.861 117.539L343 93.4426" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <!-- End SVG Element -->
+    </div>
+
+    <div class="mt-7 text-center">
+      <p class="text-xs text-gray-400">
+        Prices in USD. Taxes may apply.
+      </p>
+    </div>
+  </div>
+  <!-- End Features -->
+
+
+  <!-- FAQ -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" id="faq">
+    <!-- Title -->
+    <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+      <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-gray-800 dark:text-gray-200">
+        Frequently Asked Questions
+      </h2>
+    </div>
+    <!-- End Title -->
+
+    <div class="max-w-5xl mx-auto">
+      <!-- Grid -->
+      <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Can I use the QuizBuddy Extension for all my subjects
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Yes, our extension covers a wide range of subjects, making it suitable for various courses and disciplines.
+          </p>
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            How do I get started with the QuizBuddy Extension?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Simply visit our website, create an account, and choose the plan that suits you best. Once you've subscribed, you'll receive instructions on how to install and integrate the extension into your preferred study environment.
+          </p>
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            How does the QuizBuddy assist with quizzes and exams?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Our AI extension uses the GPT technology to provide detailed explanations and answers to your quiz and exam questions. It helps you understand concepts, solve problems, and reinforce your learning.
+          </p>
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Will using QuizBuddy be considered cheating?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            No, using the QuizBuddy as a study tool is not cheating. It's akin to seeking help from a tutor or a study group. The AI provides explanations and guidance to enhance your understanding and learning experience.
+          </p>
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Is my personal information secure when using this AI extension?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Absolutely. We take data privacy seriously. Your personal information and interactions with QuizBuddy are encrypted and stored securely, following the best industry practices.
+          </p>
+        </div>
+        <!-- End Col -->
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            Can I upgrade from the Monthly to the Yearly plan?
+          </h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">
+            Yes, you can upgrade your plan at any time. Simply get in touch with our support team, and they will guide you through the process
+          </p>
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Grid -->
+    </div>
+  </div>
+  <!-- End FAQ -->
+  <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+    <!-- Grid -->
+    <div class="text-center">
+      <div>
+        <a class="flex-none text-xl font-semibold text-black dark:text-white" href="#" aria-label="Brand">QuizBuddy</a>
+      </div>
+      <!-- End Col -->
+
+      <div class="mt-3">
+        <p class="text-gray-500">We're part of the <a class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">MasaiCode</a> family.</p>
+        <p class="text-gray-500">© QuizBuddy. 2023 MasaiCode. All rights reserved.</p>
+      </div>
+
+      <!-- Social Brands -->
+      <div class="mt-3 space-x-2">
+        <a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+          <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+          </svg>
+        </a>
+        <a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+          <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+        </a>
+        <a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+          <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+        <a class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+          <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z"/>
+          </svg>
+        </a>
+      </div>
+      <!-- End Social Brands -->
+    </div>
+    <!-- End Grid -->
+  </footer>
