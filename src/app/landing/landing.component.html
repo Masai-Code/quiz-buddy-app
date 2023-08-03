@@ -1,72 +1,28 @@
 <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700">
     <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
       <div class="flex items-center justify-between">
-        <a class="flex-none text-xl font-semibold dark:text-white" href="#" aria-label="Brand">Brand</a>
+        <a class="inline-flex items-center gap-x-2 text-sm font-semibold dark:text-white" href="#" aria-label="Brand">
+            <img class="w-10 h-auto" src="assets/logo02.png" alt="Logo">
+            Quiz Buddy
+        </a>
         <div class="sm:hidden">
           <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
-            <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-            <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
+            <i class="ph ph-list"></i>
           </button>
         </div>
       </div>
       <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
         <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
-          <a class="font-medium text-blue-600 sm:py-6 dark:text-blue-500" href="#" aria-current="page">Landing</a>
-          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#">Account</a>
-          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#">Work</a>
-          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#">Blog</a>
 
-          <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
-            <button type="button" class="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 ">
-              Dropdown
-              <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-              </svg>
-            </button>
+          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#">How it Works</a>
+          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#pricing">Pricing</a>
+          <a class="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="#faq">FAQ's</a>
 
-            <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-              <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                About
-              </a>
-              <div class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-                <button type="button" class="w-full flex justify-between w-full items-center text-sm text-gray-800 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300">
-                  Sub Menu
-                  <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                  </svg>
-                </button>
-
-                <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-2 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                    About
-                  </a>
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                    Downloads
-                  </a>
-                  <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                    Team Account
-                  </a>
-                </div>
-              </div>
-
-              <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                Downloads
-              </a>
-              <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300" href="#">
-                Team Account
-              </a>
-            </div>
-          </div>
 
           <div class="flex items-center gap-x-2 sm:ml-auto">
             <a class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-500" href="#">
-              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-              </svg>
+
+              <i class="ph ph-user"></i>
               Log in
             </a>
           </div>
@@ -79,20 +35,16 @@
     <!-- Grid -->
     <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
       <div>
-        <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Start your journey with <span class="text-blue-600">Preline</span></h1>
-        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Hand-picked professionals and expertly crafted components, designed for any kind of entrepreneur.</p>
+        <h1 class="block text-xl font-bold text-gray-800 sm:text-3xl lg:text-6xl lg:leading-tight dark:text-white">Ace Your Quizzes and Exams</h1>
+        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">Get instant help answering quiz and exam questions effortlessly.</p>
 
         <!-- Buttons -->
         <div class="mt-7 grid gap-3 w-full sm:inline-flex">
           <a class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
             Get started
-            <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+            <i class="ph ph-caret-right"></i>
           </a>
-          <a class="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800" href="#">
-            Contact sales team
-          </a>
+
         </div>
         <!-- End Buttons -->
 
@@ -101,21 +53,11 @@
           <!-- Review -->
           <div class="py-5">
             <div class="flex space-x-1">
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
             </div>
 
             <p class="mt-3 text-sm text-gray-800 dark:text-gray-200">
@@ -140,22 +82,11 @@
           <!-- Review -->
           <div class="py-5">
             <div class="flex space-x-1">
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M27.0352 1.6307L33.9181 16.3633C34.2173 16.6768 34.5166 16.9903 34.8158 16.9903L50.0779 19.1845C50.9757 19.1845 51.275 20.4383 50.6764 21.0652L39.604 32.3498C39.3047 32.6632 39.3047 32.9767 39.3047 33.2901L41.998 49.2766C42.2973 50.217 41.1002 50.8439 40.5017 50.5304L26.4367 43.3208C26.1375 43.3208 25.8382 43.3208 25.539 43.3208L11.7732 50.8439C10.8754 51.1573 9.97763 50.5304 10.2769 49.59L12.9702 33.6036C12.9702 33.2901 12.9702 32.9767 12.671 32.6632L1.29923 21.0652C0.700724 20.4383 0.999979 19.4979 1.89775 19.4979L17.1598 17.3037C17.459 17.3037 17.7583 16.9903 18.0575 16.6768L24.9404 1.6307C25.539 0.69032 26.736 0.69032 27.0352 1.6307Z" fill="currentColor"/>
-              </svg>
-              <svg class="h-4 w-4 text-gray-800 dark:text-gray-200" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M49.6867 20.0305C50.2889 19.3946 49.9878 18.1228 49.0846 18.1228L33.7306 15.8972C33.4296 15.8972 33.1285 15.8972 32.8275 15.2613L25.9032 0.317944C25.6021 0 25.3011 0 25 0V42.6046C25 42.6046 25.3011 42.6046 25.6021 42.6046L39.7518 49.9173C40.3539 50.2352 41.5581 49.5994 41.2571 48.6455L38.5476 32.4303C38.5476 32.1124 38.5476 31.7944 38.8486 31.4765L49.6867 20.0305Z" fill="transparent"/>
-                <path d="M0.313299 20.0305C-0.288914 19.3946 0.0122427 18.1228 0.915411 18.1228L16.2694 15.8972C16.5704 15.8972 16.8715 15.8972 17.1725 15.2613L24.0968 0.317944C24.3979 0 24.6989 0 25 0V42.6046C25 42.6046 24.6989 42.6046 24.3979 42.6046L10.2482 49.9173C9.64609 50.2352 8.44187 49.5994 8.74292 48.6455L11.4524 32.4303C11.4524 32.1124 11.4524 31.7944 11.1514 31.4765L0.313299 20.0305Z" fill="currentColor"/>
-              </svg>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star-half"></i>
             </div>
 
             <p class="mt-3 text-sm text-gray-800 dark:text-gray-200">
@@ -211,278 +142,96 @@
   </div>
   <!-- End Hero -->
 
+
+<!-- Icon Blocks -->
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6 md:gap-10">
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M211.18,196.56,139.57,128l71.61-68.56a1.59,1.59,0,0,1,.13-.13A16,16,0,0,0,200,32H56A16,16,0,0,0,44.7,59.31l.12.13L116.43,128,44.82,196.56l-.12.13A16,16,0,0,0,56,224H200a16,16,0,0,0,11.32-27.31A1.59,1.59,0,0,1,211.18,196.56ZM56,48h0v0Zm144,0-72,68.92L56,48ZM56,208l72-68.92L200,208Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Time-Saving</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">QuizBuddy minimizes the time spent searching for answers, allowing you to focus on answering more questions accurately</p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Comprehensive Coverage</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">Whether it's history, science, mathematics, or any subject, QuizBuddy has got you covered with its vast database of accurate information</p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM80,108a12,12,0,1,1,12,12A12,12,0,0,1,80,108Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,176,108Zm-1.07,48c-10.29,17.79-27.4,28-46.93,28s-36.63-10.2-46.92-28a8,8,0,1,1,13.84-8c7.47,12.91,19.21,20,33.08,20s25.61-7.1,33.07-20a8,8,0,0,1,13.86,8Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">User-Friendly Interface</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">Our intuitive interface makes studying a breeze, even for the least tech-savvy students.</p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M152,96H104a8,8,0,0,0-8,8v48a8,8,0,0,0,8,8h48a8,8,0,0,0,8-8V104A8,8,0,0,0,152,96Zm-8,48H112V112h32Zm88,0H216V112h16a8,8,0,0,0,0-16H216V56a16,16,0,0,0-16-16H160V24a8,8,0,0,0-16,0V40H112V24a8,8,0,0,0-16,0V40H56A16,16,0,0,0,40,56V96H24a8,8,0,0,0,0,16H40v32H24a8,8,0,0,0,0,16H40v40a16,16,0,0,0,16,16H96v16a8,8,0,0,0,16,0V216h32v16a8,8,0,0,0,16,0V216h40a16,16,0,0,0,16-16V160h16a8,8,0,0,0,0-16Zm-32,56H56V56H200v95.87s0,.09,0,.13,0,.09,0,.13V200Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Smart Algorithm</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">QuizBuddy's advanced algorithm ensures precise answers and relevant explanations for every question.
+      </p>
+    </div>
+    <!-- End Card -->
+
+    <!-- Card -->
+    <div class="w-full h-full bg-white shadow-lg rounded-lg p-5 dark:bg-slate-900">
+      <div class="flex items-center gap-x-4 mb-3">
+        <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
+
+          <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M136,80v43.47l36.12,21.67a8,8,0,0,1-8.24,13.72l-40-24A8,8,0,0,1,120,128V80a8,8,0,0,1,16,0Zm88-24a8,8,0,0,0-8,8V82c-6.35-7.36-12.83-14.45-20.12-21.83a96,96,0,1,0-2,137.7,8,8,0,0,0-11-11.64A80,80,0,1,1,184.54,71.4C192.68,79.64,199.81,87.58,207,96H184a8,8,0,0,0,0,16h40a8,8,0,0,0,8-8V64A8,8,0,0,0,224,56Z"></path></svg>
+        </div>
+        <div class="flex-shrink-0">
+          <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">Constant Updates</h3>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">We continually add new content and features to keep up with the evolving educational landscape</p>
+    </div>
+    <!-- End Card -->
+  </div>
+</div>
+<!-- End Icon Blocks -->
+
+
   <!-- Features -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <!-- Grid -->
-    <div class="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
-      <!-- Stats -->
-      <div>
-        <h4 class="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-200">Accuracy rate</h4>
-        <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">99.95%</p>
-        <p class="mt-1 text-gray-500">in fulfilling orders</p>
-      </div>
-      <!-- End Stats -->
-
-      <!-- Stats -->
-      <div>
-        <h4 class="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-200">Startup businesses</h4>
-        <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">2,000+</p>
-        <p class="mt-1 text-gray-500">partner with Preline</p>
-      </div>
-      <!-- End Stats -->
-
-      <!-- Stats -->
-      <div>
-        <h4 class="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-200">Happy customer</h4>
-        <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">85%</p>
-        <p class="mt-1 text-gray-500">this year alone</p>
-      </div>
-      <!-- End Stats -->
-    </div>
-    <!-- End Grid -->
-  </div>
-  <!-- End Features -->
-  <!-- Features -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <!-- Grid -->
-    <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
-      <div>
-        <img class="rounded-xl" src="https://images.unsplash.com/photo-1648737963503-1a26da876aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80" alt="Image Description">
-      </div>
-      <!-- End Col -->
-
-      <div class="mt-5 sm:mt-10 lg:mt-0">
-        <div class="space-y-6 sm:space-y-8">
-          <!-- Title -->
-          <div class="space-y-2 md:space-y-4">
-            <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
-              We tackle the challenges start-ups face
-            </h2>
-            <p class="text-gray-500">
-              Besides working with start-up enterprises as a partner for digitalization, we have built enterprise products for common pain points that we have encountered in various products and projects.
-            </p>
-          </div>
-          <!-- End Title -->
-
-          <!-- List -->
-          <ul role="list" class="space-y-2 sm:space-y-4">
-            <li class="flex space-x-3">
-              <!-- Solid Check -->
-              <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-                <path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-              </svg>
-              <!-- End Solid Check -->
-
-              <span class="text-sm sm:text-base text-gray-500">
-                <span class="font-bold">Easy & fast</span> designing
-              </span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Solid Check -->
-              <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-                <path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-              </svg>
-              <!-- End Solid Check -->
-
-              <span class="text-sm sm:text-base text-gray-500">
-                Powerful <span class="font-bold">features</span>
-              </span>
-            </li>
-
-            <li class="flex space-x-3">
-              <!-- Solid Check -->
-              <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z" fill="currentColor" fill-opacity="0.1"/>
-                <path d="M10.9295 4.88618C11.1083 4.67577 11.4238 4.65019 11.6343 4.82904C11.8446 5.00788 11.8702 5.32343 11.6914 5.53383L7.44139 10.5338C7.25974 10.7475 6.93787 10.77 6.72825 10.5837L4.47825 8.5837C4.27186 8.40024 4.25327 8.0842 4.43673 7.87781C4.62019 7.67142 4.93622 7.65283 5.14261 7.83629L7.01053 9.49669L10.9295 4.88618Z" fill="currentColor"/>
-              </svg>
-              <!-- End Solid Check -->
-
-              <span class="text-sm sm:text-base text-gray-500">
-                User Experience Design
-              </span>
-            </li>
-          </ul>
-          <!-- End List -->
-        </div>
-      </div>
-      <!-- End Col -->
-    </div>
-    <!-- End Grid -->
-  </div>
-  <!-- End Features -->
-  <!-- Icon Blocks -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
-      <!-- Icon Block -->
-      <div>
-        <div class="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-          <svg class="w-7 h-7 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-          </svg>
-        </div>
-        <div class="mt-5">
-          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Responsive</h3>
-          <p class="mt-1 text-gray-600 dark:text-gray-400">Responsive, and mobile-first project on the web</p>
-        </div>
-      </div>
-      <!-- End Icon Block -->
-
-      <!-- Icon Block -->
-      <div>
-        <div class="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-          <svg class="w-7 h-7 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z"/>
-            <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm.535-10a3.975 3.975 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126c.091-.355.23-.69.41-1H4a2 2 0 1 0 0 4h2.535z"/>
-            <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
-          </svg>
-        </div>
-        <div class="mt-5">
-          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Customizable</h3>
-          <p class="mt-1 text-gray-600 dark:text-gray-400">Components are easily customized and extendable</p>
-        </div>
-      </div>
-      <!-- End Icon Block -->
-
-      <!-- Icon Block -->
-      <div>
-        <div class="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-          <svg class="w-7 h-7 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
-            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-          </svg>
-        </div>
-        <div class="mt-5">
-          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Documentation</h3>
-          <p class="mt-1 text-gray-600 dark:text-gray-400">Every component and plugin is well documented</p>
-        </div>
-      </div>
-      <!-- End Icon Block -->
-
-      <!-- Icon Block -->
-      <div>
-        <div class="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-          <svg class="w-7 h-7 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-          </svg>
-        </div>
-        <div class="mt-5">
-          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">24/7 Support</h3>
-          <p class="mt-1 text-gray-600 dark:text-gray-400">Contact us 24 hours a day, 7 days a week</p>
-        </div>
-      </div>
-      <!-- End Icon Block -->
-    </div>
-  </div>
-  <!-- End Icon Blocks -->
-  <!-- Testimonials with Stats -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <!-- Grid -->
-    <div class="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
-      <div class="lg:col-span-5 lg:col-start-1">
-        <!-- Title -->
-        <div class="mb-8">
-          <h2 class="mb-2 text-3xl text-gray-800 font-bold lg:text-4xl dark:text-gray-200">
-            It's all about speed
-          </h2>
-          <p class="text-gray-600 dark:text-gray-400">
-            We provide you with a test account that can be set up in seconds. Our main focus is getting responses to you as soon as we can.
-          </p>
-        </div>
-        <!-- End Title -->
-
-        <!-- Blockquote -->
-        <blockquote class="relative">
-          <svg class="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-200 dark:text-gray-800" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z" fill="currentColor"/>
-          </svg>
-
-          <div class="relative z-10">
-            <p class="text-xl italic text-gray-800 dark:text-white">
-              Amazing people to work with. Very fast and professional partner.
-            </p>
-          </div>
-
-          <footer class="mt-6">
-            <div class="flex items-center">
-              <div class="flex-shrink-0">
-                <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
-              </div>
-              <div class="grow ml-4">
-                <div class="font-semibold text-gray-800 dark:text-gray-200">Josh Grazioso</div>
-                <div class="text-xs text-gray-500">Director Payments & Risk | Airbnb</div>
-              </div>
-            </div>
-          </footer>
-        </blockquote>
-        <!-- End Blockquote -->
-      </div>
-      <!-- End Col -->
-
-      <div class="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
-        <div class="space-y-6 sm:space-y-8">
-          <!-- List -->
-          <ul class="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden dark:divide-gray-700">
-            <li class="flex flex-col -m-0.5 p-4 sm:p-8">
-              <div class="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
-                45k+
-              </div>
-              <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                users - from new startups to public companies
-              </p>
-            </li>
-
-            <li class="flex flex-col -m-0.5 p-4 sm:p-8">
-              <div class="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
-                <svg class="w-4 h-4 text-blue-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9 14.4452C9 14.9504 8.55229 15.36 8 15.36C7.44772 15.36 7 14.9504 7 14.4452V3.38868L1.70711 8.23079C1.31658 8.58806 0.683417 8.58806 0.292893 8.23079C-0.0976311 7.87353 -0.0976311 7.29429 0.292893 6.93703L7.11612 0.694919C7.60427 0.248339 8.39573 0.248341 8.88388 0.694919L15.7071 6.93703C16.0976 7.29429 16.0976 7.87353 15.7071 8.23079C15.3166 8.58806 14.6834 8.58806 14.2929 8.23079L9 3.38868V14.4452Z" fill="currentColor"/>
-                </svg>
-                23%
-              </div>
-              <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                increase in traffic on webpages with Looms
-              </p>
-            </li>
-
-            <li class="flex flex-col -m-0.5 p-4 sm:p-8">
-              <div class="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
-                <svg class="w-4 h-4 text-blue-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9 14.4452C9 14.9504 8.55229 15.36 8 15.36C7.44772 15.36 7 14.9504 7 14.4452V3.38868L1.70711 8.23079C1.31658 8.58806 0.683417 8.58806 0.292893 8.23079C-0.0976311 7.87353 -0.0976311 7.29429 0.292893 6.93703L7.11612 0.694919C7.60427 0.248339 8.39573 0.248341 8.88388 0.694919L15.7071 6.93703C16.0976 7.29429 16.0976 7.87353 15.7071 8.23079C15.3166 8.58806 14.6834 8.58806 14.2929 8.23079L9 3.38868V14.4452Z" fill="currentColor"/>
-                </svg>
-                9.3%
-              </div>
-              <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                boost in reply rates across sales outreach
-              </p>
-            </li>
-
-            <li class="flex flex-col -m-0.5 p-4 sm:p-8">
-              <div class="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
-                2x
-              </div>
-              <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                faster than previous Preline versions
-              </p>
-            </li>
-          </ul>
-          <!-- End List -->
-        </div>
-      </div>
-      <!-- End Col -->
-    </div>
-    <!-- End Grid -->
-  </div>
-  <!-- End Testimonials with Stats -->
-  <!-- Features -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" id="pricing">
     <!-- Title -->
     <div class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
       <h2 class="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-gray-200">
-        Solo, agency or team? We’ve got you covered.
+        📚 Elevate Your Academic Success with AI-Powered Quiz and Exam Assistance! 🚀
       </h2>
     </div>
     <!-- End Title -->
@@ -493,108 +242,11 @@
         <div>
           <!-- Card -->
           <div class="p-4 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700">
-            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Professional</h3>
-            <div class="text-sm text-gray-500">Everything a small team needs.</div>
+            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Monthly</h3>
+            <div class="text-sm text-gray-500">Everything you need for exam month.</div>
 
             <div class="mt-5">
-              <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">$18</span>
-              <span class="text-lg font-bold text-gray-800 dark:text-gray-200">.00</span>
-              <span class="ml-3 text-gray-500">USD / monthly</span>
-            </div>
-
-            <div class="mt-5 grid sm:grid-cols-2 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
-              <!-- List -->
-              <ul role="list" class="space-y-2 text-sm sm:text-base">
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
-                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
-                  </svg>
-                  <span class="text-gray-800 dark:text-gray-200">
-                    Up to 10 people
-                  </span>
-                </li>
-
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
-                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
-                  </svg>
-                  <span class="text-gray-800 dark:text-gray-200">
-                    Collect data
-                  </span>
-                </li>
-
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
-                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
-                  </svg>
-                  <span class="text-gray-800 dark:text-gray-200">
-                    Code extensibility
-                  </span>
-                </li>
-              </ul>
-              <!-- End List -->
-
-              <!-- List -->
-              <ul role="list" class="space-y-2 text-sm sm:text-base">
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 h-5 w-5 text-gray-500" width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <path d='M18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9Z' fill='currentColor' fill-opacity='0.1'/>
-                    <path d='M5.64639 5.64654C5.74016 5.55281 5.86731 5.50015 5.99989 5.50015C6.13248 5.50015 6.25963 5.55281 6.35339 5.64654L8.99989 8.29304L11.6464 5.64654C11.6925 5.59879 11.7477 5.56069 11.8087 5.53449C11.8697 5.50829 11.9353 5.49449 12.0017 5.49392C12.0681 5.49334 12.1339 5.50599 12.1954 5.53113C12.2568 5.55627 12.3126 5.5934 12.3596 5.64034C12.4065 5.68729 12.4437 5.74312 12.4688 5.80456C12.4939 5.86601 12.5066 5.93185 12.506 5.99824C12.5054 6.06463 12.4916 6.13024 12.4654 6.19124C12.4392 6.25224 12.4011 6.30742 12.3534 6.35354L9.70689 9.00004L12.3534 11.6465C12.4445 11.7408 12.4949 11.8671 12.4937 11.9982C12.4926 12.1293 12.44 12.2547 12.3473 12.3474C12.2546 12.4402 12.1292 12.4927 11.9981 12.4939C11.867 12.495 11.7407 12.4446 11.6464 12.3535L8.99989 9.70704L6.35339 12.3535C6.25909 12.4446 6.13279 12.495 6.00169 12.4939C5.87059 12.4927 5.74519 12.4402 5.65248 12.3474C5.55978 12.2547 5.5072 12.1293 5.50606 11.9982C5.50492 11.8671 5.55531 11.7408 5.64639 11.6465L8.29289 9.00004L5.64639 6.35354C5.55266 6.25978 5.5 6.13262 5.5 6.00004C5.5 5.86746 5.55266 5.7403 5.64639 5.64654V5.64654Z' fill='currentColor'/>
-                  </svg>
-                  <span class="text-gray-800 dark:text-gray-200">
-                    Custom reports
-                  </span>
-                </li>
-
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 h-5 w-5 text-gray-500" width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <path d='M18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9Z' fill='currentColor' fill-opacity='0.1'/>
-                    <path d='M5.64639 5.64654C5.74016 5.55281 5.86731 5.50015 5.99989 5.50015C6.13248 5.50015 6.25963 5.55281 6.35339 5.64654L8.99989 8.29304L11.6464 5.64654C11.6925 5.59879 11.7477 5.56069 11.8087 5.53449C11.8697 5.50829 11.9353 5.49449 12.0017 5.49392C12.0681 5.49334 12.1339 5.50599 12.1954 5.53113C12.2568 5.55627 12.3126 5.5934 12.3596 5.64034C12.4065 5.68729 12.4437 5.74312 12.4688 5.80456C12.4939 5.86601 12.5066 5.93185 12.506 5.99824C12.5054 6.06463 12.4916 6.13024 12.4654 6.19124C12.4392 6.25224 12.4011 6.30742 12.3534 6.35354L9.70689 9.00004L12.3534 11.6465C12.4445 11.7408 12.4949 11.8671 12.4937 11.9982C12.4926 12.1293 12.44 12.2547 12.3473 12.3474C12.2546 12.4402 12.1292 12.4927 11.9981 12.4939C11.867 12.495 11.7407 12.4446 11.6464 12.3535L8.99989 9.70704L6.35339 12.3535C6.25909 12.4446 6.13279 12.495 6.00169 12.4939C5.87059 12.4927 5.74519 12.4402 5.65248 12.3474C5.55978 12.2547 5.5072 12.1293 5.50606 11.9982C5.50492 11.8671 5.55531 11.7408 5.64639 11.6465L8.29289 9.00004L5.64639 6.35354C5.55266 6.25978 5.5 6.13262 5.5 6.00004C5.5 5.86746 5.55266 5.7403 5.64639 5.64654V5.64654Z' fill='currentColor'/>
-                  </svg>
-                  <span class="text-gray-800 dark:text-gray-200">
-                    Product support
-                  </span>
-                </li>
-
-                <li class="flex space-x-3">
-                  <svg class="flex-shrink-0 h-5 w-5 text-gray-500" width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <path d='M18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9Z' fill='currentColor' fill-opacity='0.1'/>
-                    <path d='M5.64639 5.64654C5.74016 5.55281 5.86731 5.50015 5.99989 5.50015C6.13248 5.50015 6.25963 5.55281 6.35339 5.64654L8.99989 8.29304L11.6464 5.64654C11.6925 5.59879 11.7477 5.56069 11.8087 5.53449C11.8697 5.50829 11.9353 5.49449 12.0017 5.49392C12.0681 5.49334 12.1339 5.50599 12.1954 5.53113C12.2568 5.55627 12.3126 5.5934 12.3596 5.64034C12.4065 5.68729 12.4437 5.74312 12.4688 5.80456C12.4939 5.86601 12.5066 5.93185 12.506 5.99824C12.5054 6.06463 12.4916 6.13024 12.4654 6.19124C12.4392 6.25224 12.4011 6.30742 12.3534 6.35354L9.70689 9.00004L12.3534 11.6465C12.4445 11.7408 12.4949 11.8671 12.4937 11.9982C12.4926 12.1293 12.44 12.2547 12.3473 12.3474C12.2546 12.4402 12.1292 12.4927 11.9981 12.4939C11.867 12.495 11.7407 12.4446 11.6464 12.3535L8.99989 9.70704L6.35339 12.3535C6.25909 12.4446 6.13279 12.495 6.00169 12.4939C5.87059 12.4927 5.74519 12.4402 5.65248 12.3474C5.55978 12.2547 5.5072 12.1293 5.50606 11.9982C5.50492 11.8671 5.55531 11.7408 5.64639 11.6465L8.29289 9.00004L5.64639 6.35354C5.55266 6.25978 5.5 6.13262 5.5 6.00004C5.5 5.86746 5.55266 5.7403 5.64639 5.64654V5.64654Z' fill='currentColor'/>
-                  </svg>
-                  <span class="text-gray-800 dark:text-gray-200">
-                    Activity reporting
-                  </span>
-                </li>
-              </ul>
-              <!-- End List -->
-            </div>
-
-            <div class="mt-5 grid grid-cols-2 gap-x-4 py-4 first:pt-0 last:pb-0">
-              <div>
-                <p class="text-sm text-gray-500">Cancel anytime.</p>
-                <p class="text-sm text-gray-500">No card required.</p>
-              </div>
-
-              <div class="flex justify-end">
-                <button type="button" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">Start free trial</button>
-              </div>
-            </div>
-          </div>
-          <!-- End Card -->
-        </div>
-
-        <div>
-          <!-- Card -->
-          <div class="shadow-xl shadow-gray-200 p-5 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
-            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Teams</h3>
-            <div class="text-sm text-gray-500">For growing businesses.</div>
-            <span class="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">Most popular</span>
-
-            <div class="mt-5">
-              <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">$36</span>
+              <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">$6</span>
               <span class="text-lg font-bold text-gray-800 dark:text-gray-200">.99</span>
               <span class="ml-3 text-gray-500">USD / monthly</span>
             </div>
@@ -608,7 +260,7 @@
                     <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
                   </svg>
                   <span class="text-gray-800 dark:text-gray-200">
-                    Up to 10 people
+                    Tailored Responses
                   </span>
                 </li>
 
@@ -618,7 +270,7 @@
                     <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
                   </svg>
                   <span class="text-gray-800 dark:text-gray-200">
-                    Collect data
+                    Varied Subjects
                   </span>
                 </li>
 
@@ -628,7 +280,73 @@
                     <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
                   </svg>
                   <span class="text-gray-800 dark:text-gray-200">
-                    Code extensibility
+                    Instant Support
+                  </span>
+                </li>
+              </ul>
+              <!-- End List -->
+
+
+            </div>
+
+            <div class="mt-5 grid grid-cols-2 gap-x-4 py-4 first:pt-0 last:pb-0">
+              <div>
+                <p class="text-sm text-gray-500">Cancel anytime.</p>
+                <p class="text-sm text-gray-500">No card required.</p>
+                <p class="text-sm text-gray-500">Money back guarantee.</p>
+              </div>
+
+              <div class="flex justify-end">
+                <button type="button" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">Start free trial</button>
+              </div>
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+
+        <div>
+          <!-- Card -->
+          <div class="shadow-xl shadow-gray-200 p-5 relative z-10 bg-white border rounded-xl md:p-10 dark:bg-slate-900 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+            <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Yearly</h3>
+            <div class="text-sm text-gray-500">For constant all year preparation</div>
+            <span class="absolute top-0 right-0 rounded-tr-xl rounded-bl-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">Most popular</span>
+
+            <div class="mt-5">
+              <span class="text-6xl font-bold text-gray-800 dark:text-gray-200">$49</span>
+              <span class="text-lg font-bold text-gray-800 dark:text-gray-200">.99</span>
+              <span class="ml-3 text-gray-500">USD / yearly</span>
+            </div>
+
+            <div class="mt-5 grid sm:grid-cols-2 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+              <!-- List -->
+              <ul role="list" class="space-y-2 text-sm sm:text-base">
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Tailored Responses
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Varied Subjects
+                  </span>
+                </li>
+
+                <li class="flex space-x-3">
+                  <svg class="flex-shrink-0 h-5 w-5 text-blue-500" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="18" height="18" rx="9" fill="currentColor" fill-opacity="0.1"/>
+                    <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
+                  </svg>
+                  <span class="text-gray-800 dark:text-gray-200">
+                    Instant Support
                   </span>
                 </li>
               </ul>
@@ -642,7 +360,7 @@
                     <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
                   </svg>
                   <span class="text-gray-800 dark:text-gray-200">
-                    Custom reports
+                    Confidence Boost
                   </span>
                 </li>
 
@@ -652,7 +370,7 @@
                     <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
                   </svg>
                   <span class="text-gray-800 dark:text-gray-200">
-                    Product support
+                    Essay Support
                   </span>
                 </li>
 
@@ -662,7 +380,7 @@
                     <path d="M12.0603 5.78792C12.2511 5.56349 12.5876 5.5362 12.8121 5.72697C13.0365 5.91774 13.0638 6.25432 12.873 6.47875L8.3397 11.8121C8.14594 12.04 7.80261 12.064 7.57901 11.8653L5.17901 9.73195C4.95886 9.53626 4.93903 9.19915 5.13472 8.979C5.33041 8.75885 5.66751 8.73902 5.88766 8.93471L7.88011 10.7058L12.0603 5.78792Z" fill="currentColor"/>
                   </svg>
                   <span class="text-gray-800 dark:text-gray-200">
-                    Activity reporting
+                    Citation Assistance
                   </span>
                 </li>
               </ul>
@@ -712,1356 +430,9 @@
   </div>
   <!-- End Features -->
 
-  <!-- Comparison Table -->
-  <div class="relative">
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 md:py-14 lg:py-20 mx-auto">
-      <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-        <h2 class="text-2xl font-bold md:text-3xl md:leading-tight dark:text-white">Compare plans</h2>
-      </div>
 
-      <!-- Header -->
-      <div class="hidden lg:block sticky top-0 left-0 py-2 bg-white/60 backdrop-blur-md dark:bg-slate-900/60">
-        <!-- Grid -->
-        <div class="grid grid-cols-6 gap-6">
-          <div class="col-span-2">
-            <span class="font-semibold text-lg text-gray-800 dark:text-gray-200">
-              Features
-            </span>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <span class="font-semibold text-lg text-gray-800 dark:text-gray-200">
-              Free
-            </span>
-            <p class="mt-2 text-sm text-gray-500">
-              Free forever
-            </p>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <span class="font-semibold text-lg text-gray-800 dark:text-gray-200">
-              Startup
-            </span>
-            <p class="mt-2 text-sm text-gray-500">
-              $39 per month billed annually
-            </p>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <span class="font-semibold text-lg text-gray-800 dark:text-gray-200">
-              Team
-            </span>
-            <p class="mt-2 text-sm text-gray-500">
-              $89 per month billed annually
-            </p>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <span class="font-semibold text-lg text-gray-800 dark:text-gray-200">
-              Enterprise
-            </span>
-            <p class="mt-2 text-sm text-gray-500">
-              $149 per month billed annually
-            </p>
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Grid -->
-      </div>
-      <!-- End Header -->
-
-      <!-- Section -->
-      <div class="space-y-4 lg:space-y-0">
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 lg:py-3">
-            <span class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-              General
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Number of seats
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                1
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                Up to 3
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                Up to 10
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                Unlimited
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Storage
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                15 GB
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                1 TB
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                15 TB
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <span class="text-sm text-gray-800 dark:text-gray-200">
-                Unlimited
-              </span>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Email sharing
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Any time, anywhere access
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-      </div>
-      <!-- End Section -->
-
-      <!-- Section -->
-      <div class="mt-6 space-y-4 lg:space-y-0">
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 lg:py-3">
-            <span class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-              Financial data
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Open/High/Low/Close
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Price-volume difference indicator
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-      </div>
-      <!-- End Section -->
-
-      <!-- Section -->
-      <div class="mt-6 space-y-4 lg:space-y-0">
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 lg:py-3">
-            <span class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-              On-chain data
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Network growth
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Average token age consumed
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Exchange flow
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Total ERC20 exchange funds flow
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Transaction volume
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Total circulation (beta)
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Velocity of tokens (beta)
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              ETH gas used
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-      </div>
-      <!-- End Section -->
-
-      <!-- Section -->
-      <div class="mt-6 space-y-4 lg:space-y-0">
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 lg:py-3">
-            <span class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-              Social data
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="hidden lg:block lg:col-span-1 py-1.5 lg:py-3 px-4 lg:px-0 lg:text-center">
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Dev activity
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Topic search
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-
-        <!-- List -->
-        <ul class="grid lg:grid-cols-6 lg:gap-6">
-          <!-- Item -->
-          <li class="lg:col-span-2 pb-1.5 lg:py-3">
-            <span class="font-semibold lg:font-normal text-sm text-gray-800 dark:text-gray-200">
-              Relative social dominance
-            </span>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Free
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Startup
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Team
-              </span>
-              <svg class="w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <li class="col-span-1 py-1.5 lg:py-3 border-b border-gray-200 dark:border-gray-700">
-            <div class="grid grid-cols-2 md:grid-cols-6 lg:block">
-              <span class="lg:hidden md:col-span-2 text-sm text-gray-800 dark:text-gray-200">
-                Enterprise
-              </span>
-              <svg class="w-5 h-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-              </svg>
-            </div>
-          </li>
-          <!-- End Item -->
-        </ul>
-        <!-- End List -->
-      </div>
-      <!-- End Section -->
-
-      <!-- Footer -->
-      <div class="hidden lg:block mt-6">
-        <!-- Grid -->
-        <div class="grid grid-cols-6 gap-6">
-          <div class="col-span-2">
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" href="#">
-              Get started
-            </a>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-3 text-center bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-lg hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white transition dark:focus:ring-offset-gray-800" href="#">
-              Get started
-            </a>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" href="#">
-              Get started
-            </a>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-span-1">
-            <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" href="#">
-              Get started
-            </a>
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Grid -->
-      </div>
-      <!-- End Footer -->
-
-      <!-- Button Group -->
-      <div class="mt-8 md:mt-12 flex justify-center items-center gap-x-3">
-        <p class="text-sm text-gray-500 dark:text-gray-400">
-          Need a custom plan?
-        </p>
-
-        <button type="button" class="py-2 px-3 inline-flex justify-center items-center gap-2 rounded-lg border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">
-          Contact us
-        </button>
-      </div>
-      <!-- End Button Group -->
-    </div>
-  </div>
-  <!-- End Comparison Table -->
   <!-- FAQ -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto" id="faq">
     <!-- Title -->
     <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
       <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-gray-800 dark:text-gray-200">
@@ -2075,60 +446,60 @@
       <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Can I cancel at anytime?
+            Can I use the QuizBuddy Extension for all my subjects
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.
+            Yes, our extension covers a wide range of subjects, making it suitable for various courses and disciplines.
           </p>
         </div>
         <!-- End Col -->
 
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            My team has credits. How do we use them?
+            How do I get started with the QuizBuddy Extension?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Once your team signs up for a subscription plan. This is where we sit down, grab a cup of coffee and dial in the details.
+            Simply visit our website, create an account, and choose the plan that suits you best. Once you've subscribed, you'll receive instructions on how to install and integrate the extension into your preferred study environment.
           </p>
         </div>
         <!-- End Col -->
 
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            How does Preline's pricing work?
+            How does the QuizBuddy assist with quizzes and exams?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.
+            Our AI extension uses the GPT technology to provide detailed explanations and answers to your quiz and exam questions. It helps you understand concepts, solve problems, and reinforce your learning.
           </p>
         </div>
         <!-- End Col -->
 
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            How secure is Preline?
+            Will using QuizBuddy be considered cheating?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            Protecting the data you trust to Preline is our first priority. This part is really crucial in keeping the project in line to completion.
+            No, using the QuizBuddy as a study tool is not cheating. It's akin to seeking help from a tutor or a study group. The AI provides explanations and guidance to enhance your understanding and learning experience.
           </p>
         </div>
         <!-- End Col -->
 
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            Do you offer discounts?
+            Is my personal information secure when using this AI extension?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            We've built in discounts at each tier for teams. The time has come to bring those ideas and plans to life.
+            Absolutely. We take data privacy seriously. Your personal information and interactions with QuizBuddy are encrypted and stored securely, following the best industry practices.
           </p>
         </div>
         <!-- End Col -->
 
         <div>
           <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
-            What is your refund policy?
+            Can I upgrade from the Monthly to the Yearly plan?
           </h3>
           <p class="mt-2 text-gray-600 dark:text-gray-400">
-            We offer refunds. We aim high at being focused on building relationships with our clients and community.
+            Yes, you can upgrade your plan at any time. Simply get in touch with our support team, and they will guide you through the process
           </p>
         </div>
         <!-- End Col -->
@@ -2141,13 +512,13 @@
     <!-- Grid -->
     <div class="text-center">
       <div>
-        <a class="flex-none text-xl font-semibold text-black dark:text-white" href="#" aria-label="Brand">Brand</a>
+        <a class="flex-none text-xl font-semibold text-black dark:text-white" href="#" aria-label="Brand">QuizBuddy</a>
       </div>
       <!-- End Col -->
 
       <div class="mt-3">
-        <p class="text-gray-500">We're part of the <a class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">Htmlstream</a> family.</p>
-        <p class="text-gray-500">© Preline. 2022 Htmlstream. All rights reserved.</p>
+        <p class="text-gray-500">We're part of the <a class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">MasaiCode</a> family.</p>
+        <p class="text-gray-500">© QuizBuddy. 2023 MasaiCode. All rights reserved.</p>
       </div>
 
       <!-- Social Brands -->

@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "@phosphor-icons/web/light";
+@import "@phosphor-icons/web/bold";
+@import "@phosphor-icons/web/fill";
+@import "@phosphor-icons/web/regular";
+
+
